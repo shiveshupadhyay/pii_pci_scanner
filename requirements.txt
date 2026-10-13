@@ -1,0 +1,16 @@
+# Runtime dependencies for scan.py (Python 3.10+). Lower bounds only, so pip can pick wheels for the local Python.
+# OCR: RapidOCR (pip, models bundled) is primary; Tesseract (system package, see README) is the optional second engine.
+pymupdf>=1.24
+pyarrow>=14
+openpyxl>=3.1
+python-docx>=1.1
+lxml>=4.9
+beautifulsoup4>=4.12
+charset-normalizer>=3.3
+Pillow>=10.0
+numpy>=1.24
+pytesseract>=0.3.10
+rapidocr>=3.0
+onnxruntime>=1.17
+psutil>=5.9
+pytest>=7

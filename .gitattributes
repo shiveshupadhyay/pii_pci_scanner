@@ -1,0 +1,12 @@
+# Keep LF line endings in every checkout, Windows included: scripts, tests and the vendored text resources
+# (e.g. src/scanner/resources/tlds.txt) are byte-for-byte the same on every OS.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.gz binary
+*.npz binary
+*.parquet binary
+*.xlsx binary
+*.docx binary

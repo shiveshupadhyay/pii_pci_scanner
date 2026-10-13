@@ -1,0 +1,38 @@
+{
+ "weights": {
+  "bias": -2.7874,
+  "first": 0.7662,
+  "last": 2.9619,
+  "eng_first": -0.1686,
+  "eng_last": -2.2709,
+  "first_as_last": -0.4217,
+  "last_as_first": -1.4401,
+  "three": 0.0,
+  "mid": 0.0,
+  "strong": 0.3038,
+  "medium": 0.3692,
+  "addr": 1.1489,
+  "line_start": -0.8531,
+  "spacy_person": 0.4323,
+  "spacy_org": -0.6999,
+  "absent_both": 1.2114,
+  "charlm_first": -0.1488,
+  "charlm_last": -0.6013,
+  "non_eng_first": 3.3638,
+  "non_eng_last": 4.4411,
+  "spec_first": 3.4307,
+  "spec_last": 6.7913
+ },
+ "threshold": 0.6,
+ "cv": {
+  "precision": 0.9724016441573693,
+  "recall": 0.9793021880544057,
+  "f1": 0.9758397171479081,
+  "folds": 5,
+  "n": 6138,
+  "positives": 3382
+ },
+ "trained_on": [
+  "dev"
+ ]
+}

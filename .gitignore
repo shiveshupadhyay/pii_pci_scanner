@@ -1,0 +1,14 @@
+# environments
+.venv/
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# data and run outputs (dev data is provided separately; see README)
+data/
+out*/
+perf/
+synthetic/
+*.stats.json
+synthetic_train/
